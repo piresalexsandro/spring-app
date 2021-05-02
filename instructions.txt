@@ -1,0 +1,9 @@
+para gerar o .jar rodar: mvn package
+
+Docker
+    1 - buildar a imagem: docker build -t spring-app .
+    2 - ver a imagem: docker images
+    3 - rodar o container: docker run -p8099:8080 spring-app
+    4 - parar imagem: docker rmi nome-image
+    5 - parar container: docker rm -f nome-container
+    6 - executar endpoint: curl localhost:8099/sneakers
