@@ -13,6 +13,8 @@ public class SneakerController {
     @GetMapping
     public ResponseEntity<Sneaker> findSneaker(){
 
+        System.out.println("Live Reload Server esta  funcionano!!!!");
+
         return ResponseEntity.ok().body(new Sneaker("Black Cement", "Air Jordan 3", 2018));
 
     }

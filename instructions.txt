@@ -1,4 +1,7 @@
+Aula: https://www.youtube.com/watch?v=c-Bq6JUfRnk
+
 para gerar o .jar rodar: mvn package
+                         ./mvnw clean package -DskipTests
 
 Docker
     1 - buildar a imagem: docker build -t spring-app .
@@ -7,3 +10,4 @@ Docker
     4 - parar imagem: docker rmi nome-image
     5 - parar container: docker rm -f nome-container
     6 - executar endpoint: curl localhost:8099/sneakers
+
